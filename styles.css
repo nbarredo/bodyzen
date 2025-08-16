@@ -702,7 +702,7 @@ summary{cursor:pointer; font-weight:700; list-style:none}
 summary::-webkit-details-marker{display:none}
 
 /* Footer */
-footer{background:#0f1f1d; color:#e7fffb}
+footer{background:#0f1f1d; color:#e7fffb; scroll-snap-align: start}
 .foot{display:grid; grid-template-columns: 1.2fr .8fr; gap:22px; padding:42px 0}
 .foot a{color:#e7fffb}
 .copy{border-top:1px solid rgba(255,255,255,.12); padding:16px 0; color:#cfe9e5; font-size:14px}
